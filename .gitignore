@@ -1,0 +1,9 @@
+.venv
+*.csv
+*.npy
+__pycache__
+*.aedat4
+.vscode/
+*.pt
+*.png
+data/
