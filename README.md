@@ -18,16 +18,21 @@ sudo apt install libcamera-dev libcamera-apps python3-libcamera
 pip install -r requirements.txt
 ```
 
-## Scripts
+## Files
+
+Scripts:
 
 - **`generate_event.py`** - Offline event generation
-  
-- **`record2npy.py`**- Raspberry Pi camera recording script
-
-- **`cv2_video_display.py`**  - Pi Camera preview tool
-- **`dvs_preview.py`** - DVS event preview tool
+- **`record2npy.py`**- Raspberry Pi camera recording
+- **`cv2_video_display.py`**  - Pi Camera preview
+- **`dvs_preview.py`** - DVS event preview
+- **`process_data.ipynb`**  - Data pre-processing
 - **`event_display.py`**  - Event data display in real time (naive version)
-- **`event_display_DVS.py`**  - Event data data display tool (realistic version)
+- **`event_display_DVS.py`**  - Event data data display in real time (realistic version)
+
+`demo_raw2event.mp4` is a demo vedio of the system running on Raspberry Pi 5, showing a person holding a rubic cube.
+
+`k_calibration` folder contains scripts for the 3-step calibration. Please refer to our paper for more information. `fake_data_gen.ipynb` can be a starting point to test the steps.
 
 ## Configuration
 

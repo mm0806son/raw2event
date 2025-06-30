@@ -5,3 +5,4 @@ tqdm == 4.49.0
 torch
 torchvision
 scipy == 1.11.4
+dv-processing
