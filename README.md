@@ -32,7 +32,7 @@ Scripts:
 
 `demo_raw2event.mp4` is a demo vedio of the system running on Raspberry Pi 5, showing a person holding a rubic cube.
 
-`k_calibration` folder contains scripts for the 3-step calibration. Please refer to our paper for more information. `fake_data_gen.ipynb` can be a starting point to test the steps.
+`k_calibration` folder contains scripts for the 3-step calibration and optuna search. Please refer to our paper for more information. `fake_data_gen.ipynb` can be a starting point to test the steps.
 
 ## Configuration
 
