@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Local configuration and credentials
+*.local.yaml
+.netrc
+wandb/
+
+# Data, checkpoints, and run outputs
+data/
+output/
+*.npz
+*.pth
+*.ckpt
+*.aedat4
+
+# Editor and OS
+.DS_Store
+.ipynb_checkpoints/

@@ -1,0 +1,6 @@
+[submodule "external/v2e"]
+	path = external/v2e
+	url = https://github.com/SensorsINI/v2e.git
+[submodule "train_class/QKFormer"]
+	path = train_class/QKFormer
+	url = https://github.com/linenmin/QKFormer.git

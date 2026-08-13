@@ -1,0 +1,62 @@
+{
+  "V01": {
+    "npz_dir": "${UNIFIED80_DIR}",
+    "npz_suffix": "raw",
+    "label": "Raw2Event-RAW (unified80, Stage 1.5 K, native50)"
+  },
+  "V02": {
+    "npz_dir": "${UNIFIED80_DIR}",
+    "npz_suffix": "rgb",
+    "label": "Raw2Event-RGB (unified80, Stage 1.5 K, native50)"
+  },
+  "V03": {
+    "npz_dir": "${LOCAL_DST}/V03_V03_dvsv_default_k",
+    "npz_suffix": "rawY",
+    "label": "Raw + DVS-V default K (rawY, native50)"
+  },
+  "V04": {
+    "npz_dir": "${LOCAL_DST}/V04_V04_dvsv_default_k",
+    "npz_suffix": "rgb",
+    "label": "Raw + DVS-V default K (rgb, native50)"
+  },
+  "V05": {
+    "npz_dir": "${LOCAL_DST}/V05_v2e_rgb_native50_default",
+    "npz_suffix": "rgb",
+    "label": "v2e rgb native50 default (pos=neg=0.15)"
+  },
+  "V06": {
+    "npz_dir": "${LOCAL_DST}/V06_v2e_rgb_native50_tuned",
+    "npz_suffix": "rgb",
+    "label": "v2e rgb native50 tuned (pos=neg=0.25)"
+  },
+  "V07": {
+    "npz_dir": "${LOCAL_DST}/V07_v2e_rawY_native50_default",
+    "npz_suffix": "rawY",
+    "label": "v2e rawY native50 default (pos=neg=0.15)"
+  },
+  "V08": {
+    "npz_dir": "${LOCAL_DST}/V08_v2e_rawY_native50_tuned",
+    "npz_suffix": "rawY",
+    "label": "v2e rawY native50 tuned (pos=neg=0.30)"
+  },
+  "V09": {
+    "npz_dir": "${LOCAL_DST}/V09_v2e_rgb_slomo_default",
+    "npz_suffix": "rgb",
+    "label": "v2e rgb slomo default (pos=neg=0.15)"
+  },
+  "V10": {
+    "npz_dir": "${LOCAL_DST}/V10_v2e_rgb_slomo_tuned",
+    "npz_suffix": "rgb",
+    "label": "v2e rgb slomo tuned (pos=neg=0.25)"
+  },
+  "V11": {
+    "npz_dir": "${LOCAL_DST}/V11_v2e_rawY_slomo_default",
+    "npz_suffix": "rawY",
+    "label": "v2e rawY slomo default (pos=neg=0.15)"
+  },
+  "V12": {
+    "npz_dir": "${LOCAL_DST}/V12_v2e_rawY_slomo_tuned",
+    "npz_suffix": "rawY",
+    "label": "v2e rawY slomo tuned (pos=neg=0.30)"
+  }
+}

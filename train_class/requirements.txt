@@ -1,0 +1,15 @@
+# Additional dependencies for the classifier training scripts, on top of the
+# repository-root requirements.txt.
+
+timm
+spikingjelly
+wandb
+scikit-learn
+tensorboard
+torchvision
+
+# numpy must stay below 2.0 for the scipy and scikit-learn builds used here.
+numpy<2.0.0
+
+# CUDA 12.x only. Keep cupy below 14.0 to match numpy 1.x.
+cupy-cuda12x<14.0.0

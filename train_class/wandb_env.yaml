@@ -1,0 +1,28 @@
+# Weights & Biases configuration for the training scripts.
+#
+# Both trainers read this file by default. Copy it to `wandb_env.local.yaml`
+# and edit that copy if you want your own settings without touching the
+# tracked file; the `.local` version takes precedence when present.
+#
+# Set the API key through the WANDB_API_KEY environment variable or by running
+# `wandb login` once. Never put a key in this file.
+#
+# Passing `--no_wandb` to either trainer disables logging regardless of what
+# this file says.
+
+# Project all runs are grouped under.
+project: "raw2event"
+
+# Entity (user or team). Leave empty to use the logged-in default account.
+entity: ""
+
+# Set to false to fall back to offline logging.
+enabled: true
+
+# "online" uploads live, "offline" writes locally for a later `wandb sync`,
+# "disabled" turns logging off entirely.
+mode: "online"
+
+# Extra tags, useful for filtering in the dashboard.
+tags:
+  - "cifar10-xdvs"
